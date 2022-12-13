@@ -1,4 +1,5 @@
 import 'package:cred_books/Logic/Bindings/product_binding.dart';
+import 'package:cred_books/View/Screens/admin/welcome_screen.dart';
 import 'package:get/get.dart';
 import '../Logic/Bindings/auth_binding.dart';
 import '../View/Screens/Settings/edit_profile_screen.dart';
@@ -19,6 +20,7 @@ class AppRoutes {
   static const login = Routes.loginScreen;
   // static const customerHome = Routes.customerHome;
   static const mainScreen = Routes.mainScreen;
+  static const welcome = Routes.welcomeScreen;
 
   //getPages
   static final routes = [
@@ -35,6 +37,10 @@ class AppRoutes {
     GetPage(
         name: Routes.stockScreen,
         page: () => StockScreen()
+    ),
+    GetPage(
+        name: Routes.welcomeScreen,
+        page: () => WelcomeScreen()
     ),
    // GetPage(name: Routes.logIn, page: () => loginScreen()),
     GetPage(
@@ -79,6 +85,7 @@ class AppRoutes {
 
 class Routes {
   static const mainScreen = '/mainScreen';
+  static const welcomeScreen = '/welcomeScreen';
   static const loginScreen = '/loginScreen';
   static const stockScreen = '/StockScreen';
   static const signScreen = '/signScreen';

@@ -24,16 +24,16 @@ class MainScreen extends StatelessWidget {
                   currentIndex: mainController.currentIndex.value,
                   type: BottomNavigationBarType.fixed,
                   items: [
-                    BottomNavigationBarItem(
-                      activeIcon: Icon(
-                        Icons.medical_services_outlined,
-                      ),
-                      icon: Icon(
-                        Icons.medical_services_outlined,
-                        color: Get.isDarkMode ? Colors.white : Colors.black,
-                      ),
-                      label: '',
-                    ),
+                    // BottomNavigationBarItem(
+                    //   activeIcon: Icon(
+                    //     Icons.medical_services_outlined,
+                    //   ),
+                    //   icon: Icon(
+                    //     Icons.medical_services_outlined,
+                    //     color: Get.isDarkMode ? Colors.white : Colors.black,
+                    //   ),
+                    //   label: '',
+                    // ),
 
                     BottomNavigationBarItem(
                       activeIcon: Icon(

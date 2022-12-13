@@ -7,7 +7,7 @@ class MainController extends GetxController {//هذا الملف تابع للب
   RxInt currentIndex = 0.obs; //Rx نوع المتغير يصير obs مع ال
 
   var tabs = [
-    StockScreen(),
+    //StockScreen(),
     CustomerHome(),
     ProfileScreen(),
 

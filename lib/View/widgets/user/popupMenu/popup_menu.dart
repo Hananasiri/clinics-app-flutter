@@ -6,7 +6,15 @@ import '../../../../Model/modelMenu_item.dart';
 import '../../../../Model/menu_items.dart';
 
 class PopupMenu extends StatelessWidget {
-  PopupMenu({super.key});
+  String prodectId;
+  String productName;
+
+  PopupMenu(
+      {super.key,
+        required this.prodectId,
+        required this.productName,
+       });
+
   final controller = Get.put(ProdectController());
   @override
   Widget build(BuildContext context) {
@@ -24,7 +32,7 @@ class PopupMenu extends StatelessWidget {
       value: item,
       child: Container(
         width: double.infinity,
-        height: 20.h,
+        height: 5.h,
         child: Row(
           children: [
             Icon(item.icon),
@@ -41,10 +49,11 @@ class PopupMenu extends StatelessWidget {
 
   void onSelected(BuildContext context, MenuItemPoup item) {
     switch (item) {
-      case MenuItems.addToCart:
-        break;
+      // case MenuItems.addToCart:
+      //   break;
 
       case MenuItems.itemDelete:
+        controller.deleteData(prodectId, productName);
         break;
     }
   }

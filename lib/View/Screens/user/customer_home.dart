@@ -5,7 +5,7 @@ import '../../../Logic/Controller/product_controller.dart';
 import '../../../Model/product.dart';
 import '../../widgets/user/favouites/products_favourite.dart';
 import '../../widgets/user/popupMenu/cart_item_customer.dart';
-import '../../widgets/user/popupMenu/searchProducts.dart';
+
 
 class CustomerHome extends StatelessWidget {
   CustomerHome({Key? key}) : super(key: key);
@@ -35,7 +35,8 @@ class CustomerHome extends StatelessWidget {
           IconButton(
             onPressed: () {
               print(controller.favouritesList);
-              Get.to(prodectsFavourites());
+              Get.to(prodectsFavourites(prodect: controller.prodects,));
+
             },
             icon: Icon(
               Icons.mark_email_read_sharp,

@@ -7,6 +7,7 @@ import '../popupMenu/popupMenu.dart';
 
 class ProuctsInStock extends StatelessWidget {
   List<dynamic> prodect;
+
   ProuctsInStock({super.key, required this.prodect});
   final controller = Get.find<ProdectController>();
 

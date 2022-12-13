@@ -116,7 +116,7 @@ class AuthController extends GetxController
       isSignedIn = true;
       authBox.write("auth", isSignedIn);
       update();
-      Get.offNamed(Routes.customerHome);
+      Get.offNamed(Routes.welcomeScreen);
       //getEmailDoc();
     } on FirebaseAuthException catch (error) {
       String title = error.code.replaceAll(RegExp('-'), ' ').capitalize!;
