@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/image_downloader.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q2wZvLDtm3gSbJa/qmBF83RgOHs=
+		ZM4v/Bhw6ZFYnvohTeRpKYgaBAY=
 		</data>
 		<key>Modules/image_downloader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/image_downloader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F+7nIjldbhD57xioflaa9LUdsDI=
+		Nj/YlKTotWMBmdJaU+hQJfhTt7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPM6OBbyicoQV8DkpbvwBsCFNUAXYkzj8j9QV+M3vpw=
+			+TaJM4o7SRepq9qSefQiRGQ0rhcqxFO//N2Ycn2C1x8=
 			</data>
 		</dict>
 		<key>Modules/image_downloader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P2iP+ytGmc8MA2oBoDbZOcP/fBu6SgV6fKTagv2mfdc=
+			QUA6OYzk9qgfvdG15uUmY+NQmGLow30/fllbhVBw0ms=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

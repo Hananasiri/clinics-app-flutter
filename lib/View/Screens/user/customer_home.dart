@@ -19,9 +19,16 @@ class CustomerHome extends StatelessWidget {
         automaticallyImplyLeading: false,
         toolbarHeight: 145,
         iconTheme: IconThemeData(color: Colors.black),
-        title: Container(
-          //margin: EdgeInsets.only(top: 20),
-            child: SearchProducts()),
+        title: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            "Dental Clinics",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 20.sp,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ]),
         elevation: 0,
         centerTitle: true,
         actions: [
@@ -31,7 +38,7 @@ class CustomerHome extends StatelessWidget {
               Get.to(prodectsFavourites());
             },
             icon: Icon(
-              Icons.add_box,
+              Icons.mark_email_read_sharp,
               color: Colors.black,
             ),
           ),

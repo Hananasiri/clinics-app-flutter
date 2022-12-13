@@ -174,6 +174,11 @@ class ProdectController extends GetxController {
       if (y['productNumber'] == id && isFave(id) == false) {
         favouritesList.add(y);
         print("added!!!");
+        Get.snackbar(
+          'Success!',
+          "Added your Appointments",
+          colorText: Colors.black,
+        );
       }
     }
     print('Seconed isFav ${isFave(id)}');
